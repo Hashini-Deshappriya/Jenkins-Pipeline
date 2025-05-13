@@ -50,12 +50,7 @@ pipeline {
                 echo 'Tool: Ansible, Jenkins SSH plugin, or cloud-native CI/CD tools for deployment.'
             }
         }
-        stage('Stage 8: Completion') {
-            steps {
-                echo 'Stage 8: completed'
-                
-            }
-        }
+        
 
     }
 }
